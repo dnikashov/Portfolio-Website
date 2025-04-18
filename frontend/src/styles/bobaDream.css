@@ -1,0 +1,261 @@
+.boba-container {
+    height: auto;
+}
+
+.boba-top-area {
+    position:sticky;
+    top: -4vw;
+    height:auto;
+    z-index: 1;
+}
+
+.boba-content {
+    top: 0;
+    text-align: center;
+    padding-top: 4vw;
+}
+
+.boba-content h1 {
+    font-size: 5.8vw;
+    width: 76.4vw;
+    font-weight: lighter;
+    margin-left: 12vw;
+}
+
+.boba-content p {
+    font-size: 2vw;
+    margin-top: -4vw;
+    width: 76.3vw;
+    font-weight: lighter;
+    margin-left: 12vw;
+}
+
+.bobaDream-images {
+    top: 30vw; 
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    flex-wrap: wrap;
+    margin-top: 3vw;
+}
+
+.boba-home-page-image {
+    width: 69.4vw;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.boba-light-section {
+    position: relative;
+    display: flex;
+    z-index: 11;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    background-color: #fdf2e9;
+    margin-top: -1vw;
+    gap: 15vw;
+}
+
+.boba-section-row {
+    gap: 5.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boba-section-image-left {
+    width: 28.9vw;
+    margin-top: 4.5vw;
+    height: auto;
+    border-radius: 15px;
+}
+
+.boba-section-image-right {
+    width: 17.3vw;
+    margin-top: 17vw;
+    height: auto;
+    border-radius: 15px;
+}
+
+.boba-section-image-right:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.boba-section-text {
+    max-width: 34.7vw;
+    margin-top: 5.9vw;
+
+    position: relative;
+    top: 0;
+}
+
+.boba-section-text h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    margin-bottom: 0.9vw;
+}
+
+.boba-section-text p {
+    font-size: 1.5vw;
+    line-height: 1.6;
+}
+
+.boba-section-text h3 {
+    font-size: 1.5vw;
+    line-height: 1.6;
+    font-weight: lighter;
+    color: rgb(100, 100, 100);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-logo-container {
+    display: flex;
+    gap: 2.9vw;
+    justify-content: center;
+}
+
+.CSS-logo-image {
+    width: 8vw;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.CSS-logo-image:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Node-logo-image {
+    width: 8.7vw;
+    height: 5.3vw;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Node-logo-image:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.boba-last-text {
+    font-size: 1.5vw;
+    line-height: 1.6;
+    width: 46.3vw;
+}
+
+.boba-video {
+    width: 69.4vw;
+    border-radius: 15px;
+    margin-left: -11.6vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .boba-content h1 {
+      font-size: 9vw;
+      width: 90vw;
+      margin-left: 5vw;
+      margin-top: 15vw;
+    }
+  
+    .boba-content p {
+      font-size: 4.5vw;
+      width: 90vw;
+      margin-left: 5vw;
+      margin-top: 2vw;
+    }
+  
+    .bobaDream-images {
+      flex-direction: column;
+      align-items: center;
+      gap: 5vw;
+    }
+  
+    .boba-home-page-image {
+      width: 90vw;
+    }
+  
+    .boba-section-row {
+      flex-direction: column;
+      align-items: center;
+      gap: 8vw;
+    }
+  
+    .boba-section-image-left,
+    .boba-section-image-right {
+      width: 75vw;
+      margin: 0;
+    }
+  
+    .boba-section-text {
+      max-width: 90vw;
+      padding: 0 5vw;
+      margin-top: 4vw;
+      text-align: center;
+    }
+  
+    .boba-section-text h2 {
+      font-size: 7vw;
+    }
+  
+    .boba-section-text p,
+    .boba-section-text h3 {
+      font-size: 4.5vw;
+    }
+  
+    .image-logo-container {
+      flex-direction: column;
+      gap: 4vw;
+      align-items: center;
+    }
+  
+    .CSS-logo-image,
+    .Node-logo-image {
+      width: 20vw;
+      height: auto;
+    }
+  
+    .boba-last-text {
+      font-size: 4.5vw;
+      width: 90vw;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .boba-video {
+      width: 90vw;
+      margin-left: 0;
+      margin-top: 5vw;
+      margin-bottom: 20vw;
+    }
+
+    /* Desktop Only */
+    .hide-on-mobile {
+        display: block;
+    }
+    
+    .mobile-only {
+        display: none;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .hide-on-mobile {
+        display: none !important;
+        }
+    
+        .mobile-only {
+        display: block;
+        width: 90vw;
+        margin: 5vw auto;
+        border-radius: 15px;
+        }
+    }
+    
+  }
+  

@@ -1,0 +1,162 @@
+.budget-container {
+    height: auto; 
+}
+
+.budget-top-area {
+    position:sticky;
+    top: -4vw;
+    height:auto;
+    z-index: 10;
+    padding-bottom: 3vw;
+}
+
+.budget-content {
+    top: 0vw;
+    text-align: center;
+    margin-left: 11vw;
+    padding-top: 4vw;
+}
+
+.budget-content h1 {
+    font-size: 9vw;
+    width: 76.3vw;
+    font-weight: lighter;
+}
+
+.budget-content p {
+    font-size: 2vw;
+    margin-top: -6vh;
+    width: 76.3vw;
+    font-weight: lighter;
+
+}
+
+.budget-section {
+    position: relative;
+    display: flex;
+    z-index: 11;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgb(233, 255, 234);
+    margin-top: 20vw;
+    gap: 15vw;
+}
+
+
+
+.budget-section-row {
+    gap: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.budget-section-image-left {
+    width: 20.3vw; 
+    margin-top: 50px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.budget-section-image-right {
+    width: 11.6vw; 
+    margin-top: 22.3vh; 
+    height: auto;
+    border-radius: 15px;
+}
+
+.budget-section-image-right:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.budget-section-text {
+    max-width: 34.7vw; 
+    margin-top: 13.4vh; 
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+
+.budget-section-text h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.budget-section-text p {
+    font-size: 1.5vw;
+    line-height: 1.6;
+}
+
+.budget-backend-image {
+    width: 11.6vw; 
+    margin-top: 22.3vh; 
+    height: auto;
+    border-radius: 15px;
+    margin-top: -2vh;
+}
+
+.budget-backend-image:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+    .budget-content {
+      margin-left: 0;
+      padding: 5vw;
+
+    }
+  
+    .budget-content h1 {
+      font-size: 10vw;
+      width: 90vw;
+      margin-top: 15vw;
+    }
+  
+    .budget-content p {
+      font-size: 4.5vw;
+      width: 90vw;
+      margin: 3vw auto 0;
+    }
+  
+    .budget-section {
+      gap: 10vw;
+      padding: 5vw 0;
+    }
+  
+    .budget-section-row {
+      flex-direction: column;
+      gap: 8vw;
+      padding: 0 5vw;
+    }
+  
+    .budget-section-image-right,
+    .budget-backend-image {
+      width: 30vw;
+      margin: 0 auto;
+    }
+
+    .budget-section-image-left{
+        width: 80vw;
+    }
+  
+    .budget-section-text {
+      max-width: 90vw;
+      margin: 0 auto;
+      padding: 0 3vw;
+    }
+  
+    .budget-section-text h2 {
+      font-size: 7vw;
+    }
+  
+    .budget-section-text p {
+      font-size: 4.5vw;
+      line-height: 1.6;
+    }
+  }
+  

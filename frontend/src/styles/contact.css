@@ -1,0 +1,87 @@
+.contact-page {
+    height:auto
+  }
+  
+  .contact-container{
+    max-width: 60vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5vw;
+    color: #333;
+    margin-bottom: 1vw;
+  }
+  
+  .contact-container p {
+    color: #666;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 1vw;
+    border: 0.1vw solid #ddd;
+    border-radius: 0.6vw;
+    font-size: 1.1vw;
+    background-color: #f7f7f7;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #eee;
+    border: none;
+    padding: 1vw;
+    border-radius: 0.6vw;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2vw;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-container {
+      padding: 18vw 4vw 8vw;
+      max-width: 90vw;
+    }
+  
+    .contact-container h2 {
+      font-size: 5vw;
+    }
+  
+    .contact-container p {
+      font-size: 3vw;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 3.5vw;
+      padding: 2vw;
+    }
+  
+    .contact-form button {
+      font-size: 3.5vw;
+      padding: 2vw;
+    }
+  }
+  
