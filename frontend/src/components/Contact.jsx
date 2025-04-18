@@ -9,7 +9,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_e81qdue', 'template_eop04vb', form.current, 'BeHY-H99hk9Qqni89')
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
       .then((result) => {
         alert('Message sent!');
         form.current.reset();
