@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/about.css";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
