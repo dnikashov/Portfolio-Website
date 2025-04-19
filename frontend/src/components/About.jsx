@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import { useNavigate } from "react-router-dom";
 import "../styles/about.css";
 
 const About = () => {
@@ -71,16 +72,16 @@ const About = () => {
             <p>Check out some projects down below!</p>
 
             <div className="project-grid">
-              <div className="project-box" onClick={() => window.location.href = "/grocery-scout"}>
+              <div className="project-box" onClick={() => navigate("/grocery-scout")}>
                 <img src="/GroceryScout_logo.png" alt="Project 1" className="project-img" />
               </div>
-              <div className="project-box-2" onClick={() => window.location.href = "/boba-dream"}>
+              <div className="project-box-2" onClick={() => navigate("/boba-dream")}>
                 <img src="/BobaDream_Logo.png" alt="Project 2" className="project-img-2" />
               </div>
-              <div className="project-box" onClick={() => window.location.href = "/budget-app"}>
+              <div className="project-box" onClick={() => navigate("/budget-app")}>
                 <img src="/BudgetTrack-logo-1.png" alt="Project 3" className="project-img" />
               </div>
-              <div className="project-box-3" onClick={() => window.location.href = "/morning-pulse"}>
+              <div className="project-box-3" onClick={() => navigate("/morning-pulse")}>
                 <img src="/Morning_Pulse_Logo.png" alt="Project 4" className="project-img-2" />
               </div>
             </div>
