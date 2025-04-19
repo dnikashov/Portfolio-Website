@@ -3,16 +3,8 @@ import Navbar from "./Navbar";
 import "../styles/bobaDream.css";
 import "../styles/morningPulse.css";
 import "../styles/groceryScout.css";
-import { useEffect, useRef } from "react";
 
 const MorningPulse = () => {
-    const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 2; // Set playback speed to 2x
-    }
-  }, []);
   return (
     <div className="boba-container">
       <Navbar />
