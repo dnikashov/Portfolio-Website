@@ -1,0 +1,38 @@
+.morning-light-section {
+    position: relative;
+    display: flex;
+    z-index: 11;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    background-color: #ffefe1;
+    margin-top: -1vw;
+    gap: 15vw;
+}
+
+.morning-last-text{
+    font-size: 1.5vw;
+    line-height: 1.6;
+    width: 46.3vw;
+    margin-bottom: 10vw;
+}
+
+.Flask-logo-image {
+    width: 15vw;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Flask-logo-image:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.morning-section-image-right {
+    width: 17.3vw;
+    margin-top: 5vw;
+    height: auto;
+    border-radius: 15px;
+}

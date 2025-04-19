@@ -9,6 +9,7 @@ import GroceryScout from "./components/GroceryScout";
 import BobaDream from "./components/BobaDream";
 import "./styles/global.css";
 import BudgetApp from "./components/BudgetApp";
+import MorningPulse from "./components/MorningPulse";
 import Footer from "./components/Footer";
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/grocery-scout" element={<GroceryScout />} />
           <Route path="/boba-dream" element={<BobaDream />} />
           <Route path="/budget-app" element={<BudgetApp />} />
+          <Route path="/morning-pulse" element={<MorningPulse />} />
         </Routes>
         <Footer />
       </div>
