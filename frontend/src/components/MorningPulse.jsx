@@ -70,7 +70,7 @@ const MorningPulse = () => {
                         </p>
                         <h3>MySQL</h3>
                     </div>
-                    <img className="frontend-image mobile-only" src="Boba-Signin.png" alt="Right Image Mobile" />
+                    <img className="frontend-image mobile-only" src="Morning Pulse Email.png" alt="Right Image Mobile" />
                     <div className="frontend-text-1">
                         <h1>2. CLI</h1>
                         <p>
@@ -81,7 +81,7 @@ const MorningPulse = () => {
                 </div>
 
                 <div className="boba-section-row">
-                    <div className="morning-last-text">
+                    <div className="boba-last-text">
                     <p> This website is now live and publicly hosted on <strong>PythonAnywhere</strong> using their free tier. Feel free to check it out and share any feedback if you get the chance — I’d love to hear your thoughts. <br /> <a href="https://dnikashov.pythonanywhere.com" target="_blank" rel="noopener noreferrer">Visit the live site</a> </p>
                     </div>
                 </div>
